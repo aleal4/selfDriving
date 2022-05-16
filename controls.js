@@ -8,7 +8,7 @@ class Controls {
     this.#addKeyboardListeners()
   }
 
-  #adKeyboardListeners(){
+  #addKeyboardListeners(){
     document.onkeydown=(event)=>{
       switch(event.key){
         case 'ArrowLeft':
@@ -41,7 +41,7 @@ class Controls {
           this.reverse=false;
           break
       }
-      console.tab(this)
+      console.table(this)
     }
   }
 }
